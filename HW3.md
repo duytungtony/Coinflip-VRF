@@ -36,53 +36,30 @@ blockNumber (uint256): The block number at which the request was fulfilled, prov
 
 Exercise 2:
 
-Part A
+Part A 
 
-Overview of CDP Market
+MakerDAO remains one of the most prominent protocols in decentralized finance, pioneering the use of Collateralized Debt Positions (CDPs). CDPs allow users to deposit collateral such as ETH or WBTC and mint DAI, a decentralized stablecoin. MakerDAO has faced increasing competition from other DeFi protocols, including Liquity, Curve Finance, Davos, and Ramp, each of which offers slightly different CDP models with variations in liquidation thresholds, interest rates, and risk mechanisms. To evaluate MakerDAO’s standing in this competitive market, I used DefiLlama and Dune Analytics, two widely used DeFi aggregators that provide real-time financial metrics and protocol insights.
 
-MakerDAO, as a Collateralized Debt Position (CDP) protocol, is a leader in decentralized finance. It allows users to lock collateral, such as ETH or BTC, to mint DAI, a decentralized stablecoin. Using insights from DefiLlama and Dune Analytics, MakerDAO's current standing is compared against its competitors such as Liquity, Curve Finance, and Davos Protocol.
+DefiLlama shows that MakerDAO dominates the CDP category with a Total Value Locked (TVL) of approximately $6.2 billion as of February 2025. This figure highlights its substantial market share, making it the largest CDP-based lending protocol. The second-largest competitor, Liquity, has a TVL of $1.3 billion, while other protocols hold much smaller shares. MakerDAO’s leadership position is further reinforced by its strong risk management and governance model. The stability of DAI remains a key metric in assessing MakerDAO’s impact in the DeFi space. With a circulating supply of around $5.4 billion, DAI is one of the most widely used decentralized stablecoins, competing directly with centralized options such as USDC and USDT.
 
-From DefiLlama:
-TVL (Total Value Locked): MakerDAO has a dominant TVL of over $6.2 billion (Feb 2025), representing a significant share of the CDP market. Liquity follows with $1.3 billion, while Curve and Davos contribute smaller portions.
+A key area of focus in MakerDAO’s ecosystem is yield generation. The DAI Savings Rate (DSR) currently offers a return of 2.5% per year, making it an attractive yet relatively low-risk yield option for investors. While higher yields are available on other DeFi platforms such as Curve and Aave, MakerDAO’s offering remains popular due to its robust security and predictable returns. Additionally, MakerDAO’s liquidation system is a significant driver of economic activity within the protocol. During 2024, liquidations generated over $50 million in penalties as borrowers failed to maintain their required collateralization ratios. These liquidations not only ensure solvency within the system but also create opportunities for arbitrage traders to purchase discounted assets.
 
-DAI Metrics: DAI remains a top decentralized stablecoin with a market cap of $5.4 billion, competing with centralized stablecoins like USDT and USDC. Its consistent growth reflects robust user adoption.
+Switching to Dune Analytics, I examined MakerDAO’s activity in more detail. The average collateralization ratio across MakerDAO vaults stands at 165%, indicating a strong buffer against undercollateralization. This metric suggests that users are maintaining safer vault positions, likely due to risk management improvements made after Black Thursday. Additionally, the number of daily active addresses using MakerDAO has increased by 15% year-over-year, demonstrating growing confidence in the protocol. This growth in user activity aligns with broader trends in DeFi adoption.
 
-Liquidation Opportunities: Maker’s liquidations generated $50M in penalties during 2024, demonstrating the economic activity within its ecosystem.
+Applying key financial metrics from Lecture 5, MakerDAO’s Total Value Locked (TVL) and Collateralization Ratio (CR) stand out as crucial indicators of its health. The high TVL confirms that users continue to trust MakerDAO for borrowing and lending, while the strong collateralization ratio reduces the risk of mass liquidations. The combination of these factors cements MakerDAO’s position as the leading CDP protocol in DeFi, with robust mechanisms ensuring long-term stability. As competition intensifies, MakerDAO’s ability to innovate in governance and risk management will determine whether it maintains its dominant position in the future.
 
-From Dune Analytics:
+Part B 
 
-Collateralization Ratio Trends: MakerDAO vaults maintain an average collateralization ratio of 165%, showcasing stability even during market volatility.
-User Activity: Daily active addresses minting DAI have increased by 15% YoY, indicating growing adoption.
+The MKR token has experienced significant shifts in both value and utility since Black Thursday, an event that tested MakerDAO’s resilience. On March 12, 2020, ETH prices crashed unexpectedly, triggering mass liquidations. A failure in MakerDAO’s auction mechanisms resulted in $4.5 million in undercollateralized DAI, severely impacting protocol stability. MKR’s price dropped from $540 to $260 in response to these failures, as investors feared a collapse of the system. To recover from this crisis, MakerDAO implemented several reforms that reshaped the role of MKR and strengthened its tokenomics.
 
-Metrics from Lecture 5:
+One of the most critical changes was the introduction of Multi-Collateral DAI (MCD), allowing MakerDAO to accept a wider variety of assets beyond ETH. This diversification reduced the risks associated with extreme price swings in a single asset. The protocol also introduced Keeper System Upgrades, automating liquidation processes to prevent a repeat of the Black Thursday scenario. Furthermore, governance incentives were enhanced, encouraging MKR holders to actively participate in decision-making. These changes collectively improved MakerDAO’s resilience and risk management.
 
-Total Value Locked (TVL): As a core financial metric, TVL represents the value of assets locked in MakerDAO’s vaults, emphasizing its market dominance.
-Collateralization Ratio (CR): With a minimum CR of 150%, MakerDAO ensures its system remains solvent and stable.
-
-Part B
-
-MKR Token’s Evolution
-
-On Black Thursday (March 2020), ETH prices plummeted, leading to $4.5M in undercollateralized DAI. MKR’s value dropped from $540 to $260, highlighting systemic vulnerabilities. Key post-event changes include:
-
-Multi-Collateral DAI (MCD): Maker introduced diverse collateral types (e.g., BTC, USDC), reducing reliance on ETH.
-Keeper Upgrades: Automated liquidation systems (e.g., Bite Keepers) were enhanced to handle extreme volatility.
-Governance Incentives: MKR holders were incentivized to participate in voting, improving protocol resilience.
-
-Utility of MKR Token
-
-Before Black Thursday, MKR had limited governance participation, as most holders were passive and did not actively engage in voting. Its primary function was as a backstop mechanism, used only during extreme emergencies to stabilize the system. Value appreciation was mainly dependent on the protocol's overall stability and growth.
-
-After Black Thursday, MakerDAO implemented significant changes. Governance participation by MKR holders became actively incentivized, encouraging more involvement in decision-making. The token’s role as a backstop mechanism was expanded to include regular burning of stability fees and penalties, creating a deflationary effect. Value appreciation now benefits from increased revenue streams like stability fees, liquidations, and DAI adoption, making MKR a more integral part of the protocol’s long-term success.
+As a result, MKR’s price has rebounded significantly, rising to $1,250 by 2025. The protocol’s improved stability mechanisms and revenue generation from stability fees and liquidations have made MKR more attractive to investors. Before Black Thursday, MKR’s role in governance was relatively passive, but after the event, active participation became essential. Additionally, MKR’s value is now influenced by burning mechanisms, where stability fees and liquidation penalties are used to remove MKR from circulation, creating a deflationary effect. This contrasts with its previous use as an emergency backstop, making MKR a more integral part of MakerDAO’s long-term sustainability. The combination of governance, risk management, and deflationary tokenomics has transformed MKR into a more stable and valuable asset within the DeFi ecosystem.
 
 Part C 
 
-MakerDAO’s rebranding to Sky reflects its ambition to strengthen its ecosystem and expand globally. This strategic shift aims to decentralize governance further and optimize its tokenomics through the SKY token. Unlike MKR, SKY focuses on dynamic fee adjustments, improving system efficiency and transparency.
-Future Challenges and Opportunities:
+MakerDAO has established itself as a cornerstone of decentralized finance, providing a reliable and autonomous borrowing system. However, its recent rebranding to Sky suggests a shift in its long-term strategy. This rebranding effort is not merely cosmetic; it reflects a broader transformation in the protocol’s governance and economic model. The introduction of the SKY token is a crucial part of this shift, aiming to improve governance efficiency and streamline decision-making processes. Unlike MKR, which has historically relied on manual governance participation, SKY introduces dynamic stability fees and automated governance mechanisms, reducing reliance on human intervention.
 
-AI and Risk Management: AI-powered risk assessment tools could enhance MakerDAO’s stability and predict liquidation risks more accurately.
-Quantum Computing: The rise of quantum technology necessitates transitioning to quantum-resistant cryptographic systems to maintain protocol security.
-Global Adoption: DAI’s penetration into emerging markets offers a unique opportunity to address financial exclusion.
+Looking beyond MakerDAO’s internal changes, advancements in artificial intelligence and quantum computing will likely shape its future. AI-driven risk assessment tools could enhance MakerDAO’s ability to predict market downturns and automate liquidation processes with greater efficiency. This could lead to a more resilient financial system, reducing the likelihood of failures like Black Thursday. On the other hand, quantum computing presents a significant security challenge. As quantum technology advances, existing cryptographic methods used in DeFi may become vulnerable. MakerDAO and similar protocols must transition to quantum-resistant encryption to safeguard against potential exploits.
 
-MakerDAO has successfully evolved since Black Thursday, positioning itself as a robust, decentralized protocol. Its future hinges on embracing technological innovation while addressing regulatory challenges. 
-
+Regulatory scrutiny is another factor that will influence MakerDAO’s future. Governments worldwide are developing legal frameworks for stablecoins, and decentralized protocols like MakerDAO must adapt while maintaining decentralization. Successfully navigating this regulatory landscape will be critical for DAI’s long-term adoption. Additionally, MakerDAO has a unique opportunity to expand into emerging markets, where access to stable financial systems is limited. DAI’s potential to serve as a decentralized alternative to fiat currency in hyperinflationary economies could significantly boost its adoption. Overall, MakerDAO’s ability to embrace technological advancements while ensuring regulatory compliance will determine its success in the evolving DeFi landscape.
