@@ -36,6 +36,7 @@ blockNumber (uint256): The block number at which the request was fulfilled, prov
 Exercise 2:
 
 Part A
+
 Overview of CDP Market
 
 MakerDAO, as a Collateralized Debt Position (CDP) protocol, is a leader in decentralized finance. It allows users to lock collateral, such as ETH or BTC, to mint DAI, a decentralized stablecoin. Using insights from DefiLlama and Dune Analytics, MakerDAO's current standing is compared against its competitors such as Liquity, Curve Finance, and Davos Protocol.
@@ -57,7 +58,8 @@ Metrics from Lecture 5:
 Total Value Locked (TVL): As a core financial metric, TVL represents the value of assets locked in MakerDAO’s vaults, emphasizing its market dominance.
 Collateralization Ratio (CR): With a minimum CR of 150%, MakerDAO ensures its system remains solvent and stable.
 
-Part B - Examining MKR Tokenomics (3 points)
+Part B
+
 MKR Token’s Evolution
 
 On Black Thursday (March 2020), ETH prices plummeted, leading to $4.5M in undercollateralized DAI. MKR’s value dropped from $540 to $260, highlighting systemic vulnerabilities. Key post-event changes include:
@@ -72,7 +74,7 @@ Before Black Thursday, MKR had limited governance participation, as most holders
 
 After Black Thursday, MakerDAO implemented significant changes. Governance participation by MKR holders became actively incentivized, encouraging more involvement in decision-making. The token’s role as a backstop mechanism was expanded to include regular burning of stability fees and penalties, creating a deflationary effect. Value appreciation now benefits from increased revenue streams like stability fees, liquidations, and DAI adoption, making MKR a more integral part of the protocol’s long-term success.
 
-Part C - Personal Reflection on MakerDAO (2 points)
+Part C 
 
 MakerDAO’s rebranding to Sky reflects its ambition to strengthen its ecosystem and expand globally. This strategic shift aims to decentralize governance further and optimize its tokenomics through the SKY token. Unlike MKR, SKY focuses on dynamic fee adjustments, improving system efficiency and transparency.
 Future Challenges and Opportunities:
