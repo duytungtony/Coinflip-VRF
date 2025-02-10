@@ -34,6 +34,16 @@ caller (address): The address of the account that initiated the random number re
 
 blockNumber (uint256): The block number at which the request was fulfilled, providing a reference for the blockchain transaction's timestamp.
 
+Part C: 
+
+There are two main ways to use Chainlink VRF: Direct Funding VRF and Subscription VRF. Each works differently and suits different needs.
+
+Direct Funding VRF requires the smart contract to pay for each request separately. LINK tokens must be sent directly to the VRF contract before requesting a random number. This method works well for small projects that don’t need randomness often. It gives full control over spending but comes with extra steps. The contract must always have enough LINK, and gas costs can add up since each request involves a new transaction.
+
+Subscription VRF works differently. Instead of handling payments for each request, a separate account holds LINK. Multiple contracts can request random numbers from the same account as long as it has enough LINK. This setup is a better fit for projects that need randomness regularly, like blockchain games or NFT minting. It lowers gas fees and removes the need to manage LINK in every contract. However, setting up a subscription takes more effort and might not be worth it for smaller applications.
+
+Each method has its place. Direct Funding VRF makes sense for projects with occasional randomness needs and careful cost tracking. Subscription VRF works better for those that need randomness often and want to keep things efficient.
+
 Exercise 2:
 
 Part A 
